@@ -17,8 +17,23 @@
     font-size: 1rem;
     font-weight: 600;
 }
+.carousel {
+    height: 550px;
+}
 
 /* Responsive Style */
+@media (min-width: 406px) and (max-width: 639px) {
+    .carousel-item {
+        flex-direction: column;
+    }
+    .slide-img {
+        /* width: 45%; */
+        margin-top: 30px;
+    }
+    .hero-heading {
+        margin-top: 30px;
+    }
+}
 @media (min-width: 768px) and (max-width: 1023px) {
     .menu-horizontal a {
         font-size: 0.875rem;
