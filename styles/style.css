@@ -20,8 +20,14 @@
 .carousel {
     height: 550px;
 }
+.feature-images {
+    width: 60%;
+}
 
 /* Responsive Style */
+@media (min-width: 320px) and (max-width: 405px) {
+
+}
 @media (min-width: 406px) and (max-width: 639px) {
     .carousel-item {
         flex-direction: column;
