@@ -23,6 +23,25 @@
 .feature-images {
     width: 60%;
 }
+.happy-card-container {
+    text-align: center;
+    width: 85%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    background: var(--light-background-color, #FFF);
+}
+.happy-card {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.client-card-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 
 
